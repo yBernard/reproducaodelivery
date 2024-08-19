@@ -1,0 +1,179 @@
+body{
+    padding: 0 ;
+    margin: 0;
+    background-color: #971E1E;
+}                    
+
+
+.dogao{
+    margin-bottom: 40px;
+    padding-right: 20px; 
+}
+.logo{
+    margin-top: 100px;
+}    
+.cardapio{
+    margin-top: 100px;
+    padding-left: 465px;
+}
+#menu ul{
+    display: flex;
+    list-style: none;
+    padding:0px;
+    margin:0px;
+    background-color:#971E1E;
+    list-style:none;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+ #menu ul li  { 
+    padding: 2px 10px; 
+    display: inline-block; 
+    background-color:#971E1E; 
+    color: #000000; 
+    text-decoration: none; 
+    display: inline;
+}
+
+#main{
+ display: grid;
+grid-template-columns: 400px 1fr 1fr 500px;
+gap: 30px;
+font-family: "Irish Grover";
+    font-size: 20px; 
+   margin-left: 100px;
+   
+}
+.adccarrinho{
+    display: grid;
+width: 250px;
+margin-left: 70px;
+font-family: "Irish Grover";
+padding: 10px 0;
+font-size: 20px;
+background-color: #D9D9D9;
+}
+.dogao3{
+    
+    margin-top: 10px;
+    
+}
+.dogao15{
+
+}
+.dogao32{
+
+}
+
+.dogao1{
+    font-family: "Irish Grover";
+    font-size: 40px; 
+    padding-top: 60px;
+}
+.dogao2{
+    font-family: "Irish Grover";
+    font-size: 40px; 
+    padding-top: 30px;
+}
+.dogao3{
+    font-family: "Irish Grover";
+    font-size: 40px; 
+    padding-bottom: 40px;
+}
+.doguinho1{
+    font-family: "Irish Grover";
+    font-size: 20px;
+    margin-top: 30px;
+}
+.doguinho2{
+    font-family: "Irish Grover";
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.doguin{
+    font-family: "Irish Grover";
+    font-size: 40px; 
+    padding-top: 30px;
+
+}
+.cardapio2 img{
+    padding-top: 30px;
+}
+.cardapio1{
+grid-column: 2;
+
+}
+.cardapio2{
+    grid-column: 3;
+    
+}
+.cardapio3{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+#low ul{
+    display: flex;
+    list-style: none;
+padding: 0px;
+margin: 0px;
+
+}
+#dropdown li, #dropdown-click li { background-color: rgb(0, 0, 0);
+  color: black;
+    border-radius:10px ;
+    }
+    
+    #drop-list:hover>#dropdown { opacity: 1;
+    z-index: 10;
+      top: 32px;
+    }
+    
+    
+    #drop-click { position: relative;
+    }
+    
+    #dropdown-click{ position: absolute;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+      opacity: 0;
+    fill: black;
+      top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    margin-top: 3px;
+    justify-content: space-between;
+      z-index: -10;
+      transition: 1s}
+    
+    #check { position: absolute;
+    width: 100%;
+    height:100%;
+    left: 0;
+    opacity: 0;}
+    
+    #check:checked~#dropdown-click{opacity: 1;
+    z-index: 10;
+      top: 150px; }
+.listras{
+    font-family: "Irish Grover";
+    font-size: 30px;
+   color: #000000;
+    text-decoration: none;
+   
+}  
+#dropdown-click > li{
+fill: black;
+} 
+.quemsou{
+    font-family: "Irish Grover";
+    font-size: 20px; 
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
